@@ -22,7 +22,7 @@ header {
 header h1 {
     display: inline-block;
     font-size: 50px;
-    color: White
+    color: White;
     letter-spacing: 2px;
 }
 
@@ -55,7 +55,9 @@ a {
 }
 
 p {
-    font-size: 16px;
+    font-size: 18px;
+    color: black;
+    margin: 40px;
 }
 
 /* Class selector */
@@ -69,66 +71,138 @@ p {
     }
 
 
-
 .about-me {
-    height:300px;
-    width: 100%;
-    padding:1px;
-    border:1px;
-    display: in-line block;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-align: center;
-    float: left;  
-    background-color:white;
- }
+        display: flex;
+        height:200px;
+        width: 100%;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: #292997
+     }
 
-   .ab1-box {
-    height:300px;
-    width:20%;
-    padding:5px;
-    border:1px;
-    text-align: center;
-    font-size: 30cm;
-    justify-content:centre;
-    margin:1px;
-    display: in-line block;
-    float: left;
-    Background-color: yellow;
-    float: left;
+.ab1-box {
+    width: 20%;
+    Background-color: white;
+   
     }
 
-    .ab2-box {
-    height:300px;
-    width:80%;
-    padding:px;
-    border:1px;
-    margin:1px;
-    display: in-line block;
-    float: left;
-    Background-color: green;
-    float: right;
-    }
-   #dabout-me p{
-    height:200px
-    width: 100%;
-    display: inline-block;
-    margin-left: 20%;
-    margin-bottom: 20px
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+.ab2-box {
+    width: 80%;
     Background-color: white;
-    color: #ffffff;
-
-
-#dabout me{
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    Background-color: white;
-    color: #ffffff;
+    
 }
+
+.work {
+    display: flex;
+    flex-wrap:wrap;
+    height:600px;
+    width: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #292997;
+}
+
+
+
+
+.w1-box {
+    width: 20%;
+    Background-color: white;
+}
+
+.w2-box {
+    
+    width: 80%;
+    background-color:white;
+    
+}
+
+.img-beach{
+    width:100%;
+    height: 300cm;
+    
+}
+
+.img-motorcyle {
+    width: 50%; 
+    height: 300cm;
+    display: flex;
+   
+} 
+
+.img-dogs src{
+    width: 50%; 
+    height: 300cm;
+    display: flex;
+    
+}
+
+.img-landscape{
+    width: 50%; 
+    height: auto;
+    display: flex;
+    
+}
+
+.img-Oil-Rig{
+    width: 50%; 
+    height: 300cm;
+    display: flex;
+    
+}
+
+
+
+.contact-me {
+    display: flex;
+    height:200px;
+    width: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #292997;
+}
+
+.contact-me h4 {
+        display: inline-block;
+        font-size: 15px;
+        color: White;
+        letter-spacing: 2px;
+        color: #292997;
+}      
+  
+.c1-box {
+    width: 20%;
+    Background-color: white;
+    }
+    
+.c2-box {
+    display: flex;
+    width: 80%;
+    Background-color: white;
+    Justify-content:space-around;
+    }
+
+.c3-box{
+    width: 13%;
+    Background-color: white;
+    }
+
+.c4-box{
+    width: 25%;
+    Background-color: white; 
+    }       
+    
+.c5-box{
+    width: 12%;
+    Background-color: white; 
+    }     
+        
+.c6-box{
+    width: 10%;
+            Background-color: pink; 
+    }       
+    
+    .c7-box{
+     width: 10%;
+     Background-color: red; 
+    }
 
 /* Type selector */
 footer {
