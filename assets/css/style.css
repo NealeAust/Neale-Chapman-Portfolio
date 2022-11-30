@@ -12,11 +12,20 @@ body {
 }
 
 header {
+    
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #5a53c4;
     color: #ffffff;
-    
+   
+}
+
+nav {
+    display: flex;
+    flex-wrap:wrap;
 }
 /* Group selector */
 header h1 {
@@ -28,6 +37,7 @@ header h1 {
 
 /* <header> including navigation links */
 header nav {
+    flex: 1 1 100%px ;
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -54,10 +64,14 @@ a {
     text-decoration: none;
 }
 
-p {
+.ab2-box p {
     font-size: 18px;
     color: black;
-    margin: 40px;
+    margin-top: 55px;
+    margin-left:25px;
+    margin-right:25px;
+    line-height:1.5;
+    color: #0f3291
 }
 
 /* Class selector */
@@ -71,37 +85,44 @@ p {
     }
 
 
+
 .about-me {
-        display: flex;
-        height:200px;
-        width: 100%;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        color: #292997
+    display: flex;
+    flex-wrap: wrap;
+    height:200px;
+    width: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #292997;
+       
      }
 
 .ab1-box {
+    
     width: 20%;
     Background-color: white;
-   
     }
 
+ h2 {
+    padding:80px;
+    text-align: center;
+    text-decoration-line:underline;
+}
+
+
 .ab2-box {
+
     width: 80%;
-    Background-color: white;
+    background-color: white;
     
 }
 
 .work {
     display: flex;
     flex-wrap:wrap;
-    height:600px;
     width: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #292997;
 }
-
-
-
 
 .w1-box {
     width: 20%;
@@ -111,44 +132,64 @@ p {
 .w2-box {
     
     width: 80%;
-    background-color:white;
-    
-}
-
-.img-beach{
-    width:100%;
-    height: 300cm;
-    
-}
-
-.img-motorcyle {
-    width: 50%; 
-    height: 300cm;
+    background-color:#c5e4f8;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.img-beach {
+    flex: 2 1 100%;
+    width: 100%;
+    position: relative; 
+}    
+.img-beach img {  
+    min-width:95%;
+    max-width:95%;
+    max-height: 70vh;  
+ 
+}
+
+.img-projects{
+    flex: 1 0 50%;
+     
+    width: 50%;
+    height: 40vh;
+    position: relative;
+}
+
+.img-projects img {
    
-} 
-
-.img-dogs src{
-    width: 50%; 
-    height: 300cm;
-    display: flex;
+    width: 90%;
+    min-width:90%;
+    max-width: 90%;
+    max-height: 40vh;
     
 }
-
-.img-landscape{
-    width: 50%; 
-    height: auto;
-    display: flex;
-    
+ 
+.text-box {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    height:8vh;
+    width:20vh;
+    background-color: rgb(119, 211, 223);
+    color: #0f3291;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
-.img-Oil-Rig{
-    width: 50%; 
-    height: 300cm;
-    display: flex;
-    
-}
+h6 {
+    font-size:14px;
+    padding-top: 8px;
+}   
 
+.text-box p {
+    font-size:14px;
+    padding-bottom:x;
+    margin-top: 10px;
+    color: #0f3291;
+}
 
 
 .contact-me {
@@ -159,17 +200,19 @@ p {
     color: #292997;
 }
 
-.contact-me h4 {
-        display: inline-block;
-        font-size: 15px;
-        color: White;
-        letter-spacing: 2px;
-        color: #292997;
+h4 {padding-left: 20px;
+    display: inline-block;
+    font-size: 14px;
+    background-color:white;
+    letter-spacing: 2px;
+    color: #292997;
+    margin-top: 83px;
+    text-decoration: underline;
 }      
   
 .c1-box {
     width: 20%;
-    Background-color: white;
+    Background-color:white
     }
     
 .c2-box {
@@ -179,40 +222,72 @@ p {
     Justify-content:space-around;
     }
 
-.c3-box{
-    width: 13%;
-    Background-color: white;
+.c3-box {
+    width: 16%;
+    Background-color:white;
     }
 
-.c4-box{
+.c4-box {
     width: 25%;
     Background-color: white; 
     }       
     
-.c5-box{
+.c5-box {
     width: 12%;
-    Background-color: white; 
+    Background-color: white 
     }     
         
-.c6-box{
-    width: 10%;
-            Background-color: pink; 
+.c6-box {
+    width: 17%;
+    Background-color: white; 
     }       
     
-    .c7-box{
-     width: 10%;
-     Background-color: red; 
+.c7-box{
+    width: 17%;
+    background-color:white;
     }
 
 /* Type selector */
 footer {
-    padding: 30px;
-    clear: both;
+    
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    Background-color: white;
+    
     text-align: center;
-}
+   
+}   
 
 /* Group selector */
-footer h2 {
-    font-size: 20px;
+footer h5 {
+font-size: 14px;
+color:  blue;  
+padding-bottom: 10px;
+}
+
+
+@media screen and (max-width: 992px) {
+ header {
+    background-color: purple;
+  }
+
+header nav {
+
+flex-direction: column; 
+
+ 
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    
+    header {
+       background-color: blue;
+    
+    }
+  
 }
