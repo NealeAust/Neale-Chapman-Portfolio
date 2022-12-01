@@ -149,8 +149,8 @@ a {
 }
     
 .img-projects{
-    /* display: flex; */
-   
+    display: flex; 
+  align-items: flex end;
     width: 50%;
     
     position: relative;
@@ -166,14 +166,14 @@ a {
 }
  
 .text-box {
-    position: absolute;
+    /* position: absolute; */
     bottom: 20px;
     left: 20px;
     height:8vh;
     width:20vh;
     background-color: #77d3df;
     color: #0f3291;
-    
+    margin:10cm;
 }
     
 h6 {
@@ -335,6 +335,7 @@ header nav ul {
        
 .c1-box{
     width: auto;   
+    
 }
    
 .c2-box, .c3-box, .c4-box, .c5-box, .c6-box, .c7-box{
