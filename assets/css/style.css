@@ -1,17 +1,17 @@
-/* NOTE:  Selector only entered when category changes  */
-
 /* Universal selector */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-}
+  }
+
 /* Type selector */
 body {
     
     background-color: #d9dcd6;
-}
+  }
 
+/* Flex added to enable adjustment in media query below */
 header {
     display: flex;
     flex-wrap:wrap;
@@ -20,19 +20,18 @@ header {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #5a53c4;
     color: #ffffff;
-   
-}
+  }
 
+/* in a row some wrap go to next row if not enough room */
 nav {
     display: flex;
     flex-wrap:wrap;
-    
 }
 
 /* Group selector */
 header h1 {
     display: inline-block;
-}
+  }
 
 /* <header> including navigation links */
 header nav {
@@ -44,7 +43,7 @@ header nav {
     font-weight: bold;
     color: #ffffff;
     text-shadow: 2px 2px black;
-}
+  }
 
 /* Group selector */
 header nav ul {
@@ -52,29 +51,28 @@ header nav ul {
     display: flex;
     flex-direction: row;
     align-items: center;
-}
+  }
 
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
-
-}
+  }
 
 /* Type selector */
 a {
     color: #ffffff;
     text-decoration: none;
-}
-
+  }
 
 /* Class selector */
+/* No change required screen size reduced */
 .hero {
     height: 350px;
     width: 100%;
     background-image: url("../images/Neale.jpg");
     background-size: cover;
     background-position: center;
-}
+  }
     
 .about-me {
     display: flex;
@@ -83,36 +81,35 @@ a {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #292997;
     background-color: white;
-}
+  }
 
 .ab1-box {
     width: 20%;
     Background-color: white;
+  }
     
- }
 
- h2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    text-decoration-line:underline;   
-    
+h2 {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   text-decoration-line:underline;   
 }
 
 .ab2-box {
-    
     width: 80%;
     background-color: white;
-}
+  }
 
 .ab2-box p {
     font-size: 18px;
     margin: 25px;
     line-height:1.5;
     color: #0f3291;
-}
-   
+  }
+
+/* made height auto to allow for flex size when screen reduced */
 .work {
     display: flex;
     flex-wrap:wrap;
@@ -121,41 +118,40 @@ a {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #292997;
     background-color:white;
-}
+  }
 
 .w1-box {
     width: 20%;
     Background-color: white;
-}
+  }
 
 .w2-box {
-    
     width: 80%;
     background-color:#c5e4f8;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-}
-       
+  }
+
+/* Width set for one image in row */
 .img-beach {
-   
     width: 100%;
     position: relative; 
-}    
+  }    
+
+/* meets criteria for larger than other images*/
 .img-beach img {  
     min-width:95%;
     max-width:95%;
     max-height: 70vh;  
-}
-    
+  }
+ 
+/* width set for two images in row */
 .img-projects{
-    /* display: flex; */
-   
     width: 50%;
-    
     position: relative;
-}
-    
+  }
+  
 .img-projects img {
    
     width: 90%;
@@ -163,7 +159,7 @@ a {
     max-width: 90%;
     max-height: 40vh;
     min-height: 40vh;
-}
+  }
  
 .text-box {
     position: absolute;
@@ -173,21 +169,20 @@ a {
     width:20vh;
     background-color: #77d3df;
     color: #0f3291;
-    
-}
+  }
     
 h6 {
     font-size:14px;
     margin: 8px;
-}   
+  }   
 
 .text-box p {
     font-size:14px;
     margin: 8px;
     color: #0f3291;
-}
-
-    
+  }
+   
+/* height auto as will decrease to be responsive */
 .contact-me {
     display: flex;
     height:auto;
@@ -195,8 +190,8 @@ h6 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #292997;
     background-color: white;
-}
-
+  }
+    
 h4 {
     display: flex;
     justify-content: center;
@@ -204,69 +199,71 @@ h4 {
     text-align: center;
     text-decoration-line:underline; 
     margin: 30px;
-}
+  }
 
+/* make contact detail easier to read */
 h4:hover{ 
     font-size: 18px;
-}
+  }
    
 .c1-box {
     width: 20%;
     Background-color:white;
-    }
+  }
     
 .c2-box {
     display: flex;
     width: 80%;
     Background-color: white;
     Justify-content:space-around;
-    }
+  }
 
 .c3-box {
     display: flex;
     width: 22%;
     Background-color:white;
-  
-    }
+  }
 
 .c4-box {
     display: flex;
     width: 41%;
     Background-color: white; 
-    }       
+  }       
     
 .c5-box {
     display: flex;
     width: 20%;
     Background-color: white 
-    }     
+  }     
         
 .c6-box {
     display: flex;
     width: 26%;
     Background-color: white; 
-    }       
+  }       
     
 .c7-box{
     display: flex;
     width: 26%;
     background-color:white;
-    }
+  }
 
     /* Type selector */
 footer {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     Background-color: white;
     text-align: center;
-}   
+  }   
         
 /* Group selector */
 footer h5 {
     font-size: 14px;
     color:  blue;  
     padding-bottom: 10px;
-}
-        
+  }
+  
+/* code below used to adjust screen size & formation */
+/* changed a number of rows to colum */
 @media screen and (max-width: 992px) {
 
 header {
@@ -274,92 +271,100 @@ header {
     flex-direction: column;
     align-items: center;
     background-color: purple; 
-    }
+  }
 
 header nav ul {
     display: flex;
     flex-direction: column;
     align-items: center;
-   }
+  }
 
 .about-me{
     display: flex;
     flex-direction:column;
     flex-wrap:nowrap;
     height: auto;
-   }
-   h2{
+  }
+   
+h2{
     margin: 5px;
-   }    
+  } 
+
 .ab1-box{
     width: auto;   
-   }
+  }
    
 .ab2-box{
     width: auto;   
-   }
+  }
 
 .work{
     display: flex;
     flex-direction:column;
     flex-wrap:nowrap; 
     height: auto;
-   } 
+  } 
 
-h6{
-display: flex-box;
-font-size: 13px;
-margin:4px
-}
-
-.text-box p {
-    font-size: 12px;
-    margin: 4px;
-}
-
-
+ /* enables heading to be above images */
 .w1-box{
     width: auto;   
-}
-    
+  }
    
 .w2-box{
-    width: auto;   
-}
-
+    width: auto; 
+  }
+    
 .img-projects img {
    
     display: flex;
     max-height: 28vh;
     min-height: 28vh;
-   }
+  }
   
+h4{
+    margin:10px;
+    font-size: 14px; 
+  } 
+   
+h6{
+    display: flex-box;
+    font-size: 13px;
+    margin:4px;
+   }
 
+.text-box p {
+    font-size: 12px;
+    margin: 4px;
+  }
 
 .contact-me{
     display: flex;
     flex-direction:column;
     align-items:center;
     height: auto;
-}
-       
+  }
+
+/* enables heading to be above contact details */
 .c1-box{
     width: auto;   
-}
-   
+  }
+
+/* could not group classes into single class */
+/* all details now listed underneath each other */
 .c2-box, .c3-box, .c4-box, .c5-box, .c6-box, .c7-box{
     display: flex;
     flex-direction: column;
     align-items: center;
     width: auto; 
     height: auto;
-}
+  }
 
-h4{
-   margin:10px;
-   font-size: 14px; 
+/* don't forget to close query */
 }
-}
+    
+
+
+
 
  
  

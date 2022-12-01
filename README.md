@@ -2,29 +2,29 @@
 
 ## Project Title
 
-To build my portfolio page .
+To build my portfolio page.
 
 ## Portfolio Webpage
 
-The webpage provides a brief description of the services the company provides and benefits to the customer. It contains a Navigation Bar, Hero Image, a separate card (three) for each service provided and an additional card listing benefits. See link and screenshot below.
+The portfolio webpage has been created to increase my visibility and showcase my skills, talents’ and experience to future employers. It provides a short biography and has been purposedly designed to be effortless to use and aesthetically pleasing. The webpage contains a Navigation Bar with direct links to the "About Me", "Work", and "Contact Me" sections’; plus a direct link to my Resume. Beneath is a Hero Image of myself, plus five images containing a succinct title of the job/occupation it represents.  By clicking on an image the user is directed to another webpage with more detailed information related to my work and achievements in that work area. At the bottom of the webpage are my contact details.
+
+Note that the application is responsive, so can be viewed easiliy on a mobile phone.
 
 ## Project Description
 
-The objective of this project is to modify the HTML source code and CSS entries pertaining to the webpage, without changing the application's appearance and functionality. This will incorporate improving the design and structure of both the HTML source code and stylesheet.
+The objective of this project is to build a webpage from the start without any HTML source code and CSS being provided.
 
-The steps taken to perform code refactoring include but are not limited to the following:
+The steps taken to build this web page include but are not limited to the following:
 
-- Ensure all navigation links work;
-- Ensure HTML source code consists of semantic elements only;
-- Create a unique title for web application including a logo;
-- Improve structure, including mandatory elements (header, body, main, footer etc.) and natural flow;
-- Ensure class names are descriptive;
-- The class 'card' or similar to be used when the referring to a card;
-- Reduce the number of class's or combine into one where possible;
-- Group CSS entries together where the 'property name and property value' entries match;
+- Initiate the project, by establishing what information I want to include and a vision of its structure/design. 
+- Take a minimalism approach by only including what is needed;
+- Retrieve and store the images and remote URL's to be used so they are easily accessible during the coding phase;
+- Ensure when coding that only semantic HTML elements are used;
+- Ensure class names are descriptive and where possible can be used to cover multiple sections’; 
+- The structure of coding to adhere to the flow of the web page being created;
+- Adhere to standards and best practice to ensure the HTML and CSS code is well set out and can be followed by other developers;
+- Indentations standards are to be followed.
 - Ensure HTML source code and the stylesheet have relevant comments inserted to help the reader understand the code/CSS property.  
-
-By examining code, identifying problems and/or potential improvements, making the modifications whilst monitoring the impact on the web application. This task enforced me to appreciate the importance of being methodical, recording each change made, and taking due care.
 
 ## Installation
 
@@ -32,18 +32,17 @@ N/A
 
 ## Usage
 
-The Horiseon Webpage is a fully functional web application with all navigation links working correctly. Accessibility has been drastically improved by adding a title with a self-created logo. By having HTML source code that consists of only sematic HTML elements that describe their meaning to both the browser and the developer, the coding performs better and is easier to work with.
+The Neale Chapman Portfolio webpage is a fully functional web application with all navigation links working correctly. It is effortless to use and aesthetically pleasing, with pictures that draw the user in. This includes a logo with the title.
 
-The web application coding has less class's, less CSS properties, with unnecessary code or CSS entries removed or combined. Comments have been inserted and the general structure improved. 
+The links to other webpages and my Resume ensure prospective employers have access to the information they need.
 
-The project created a web application with more readable code, reduced complexity and improved usability. By rewriting the code it is now easier to maintain, make changes and extend features.
-
-While making the changes to HTML source code and/or stylesheet in Visual Studio Code, I was able to use the functions 'Open with LIVE Server' and 'Inspect' which enabled me to view the impact on the web application's appearance in real time, and test the navigation links on a regular basis.  
+The use of semantic HTML source code ensures the web application performs well and can be easily followed by other developers if required.
 
 ## Deployed Application and Screenshot
 
 Link to deployed applicated:
 
+https://nealeaust.github.io/Neale-Chapman-Portfolio/
 
 Screenshot:
 
@@ -54,3 +53,6 @@ Screenshot:
 N/A
 
 ## Licence
+
+Refer:  https://github.com/NealeAust/Neale-Chapman-Portfolio/blob/main/LICENSE
+
