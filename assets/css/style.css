@@ -149,8 +149,8 @@ a {
 }
     
 .img-projects{
-    display: flex; 
-  align-items: flex end;
+    /* display: flex; */
+   
     width: 50%;
     
     position: relative;
@@ -166,14 +166,14 @@ a {
 }
  
 .text-box {
-    /* position: absolute; */
+    position: absolute;
     bottom: 20px;
     left: 20px;
     height:8vh;
     width:20vh;
     background-color: #77d3df;
     color: #0f3291;
-    margin:10cm;
+    
 }
     
 h6 {
@@ -203,7 +203,7 @@ h4 {
     align-items: center;
     text-align: center;
     text-decoration-line:underline; 
-    margin: 40px;
+    margin: 30px;
 }
 
 h4:hover{ 
@@ -231,7 +231,7 @@ h4:hover{
 
 .c4-box {
     display: flex;
-    width: 36%;
+    width: 41%;
     Background-color: white; 
     }       
     
@@ -243,13 +243,13 @@ h4:hover{
         
 .c6-box {
     display: flex;
-    width: 25%;
+    width: 26%;
     Background-color: white; 
     }       
     
 .c7-box{
     display: flex;
-    width: 25%;
+    width: 26%;
     background-color:white;
     }
 
@@ -306,6 +306,18 @@ header nav ul {
     height: auto;
    } 
 
+h6{
+display: flex-box;
+font-size: 13px;
+margin:4px
+}
+
+.text-box p {
+    font-size: 12px;
+    margin: 4px;
+}
+
+
 .w1-box{
     width: auto;   
 }
@@ -323,9 +335,7 @@ header nav ul {
    }
   
 
-.text-box{
- display: flex;  
-}
+
 .contact-me{
     display: flex;
     flex-direction:column;
@@ -335,7 +345,6 @@ header nav ul {
        
 .c1-box{
     width: auto;   
-    
 }
    
 .c2-box, .c3-box, .c4-box, .c5-box, .c6-box, .c7-box{
